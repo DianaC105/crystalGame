@@ -47,12 +47,12 @@
         <div class="card mb-2">
           <h3 class="card-header">You Pick</h3>
           <div class="card-body text-center">
-            <!-- <button id="button-1" class="btn btn-danger btn-choice" value="1">
-              <h1>1</h1>
-            </button> -->
-            <!-- <button class="btn btn-primary btn-round btn-choice" type="button">
-                    <i class="now-ui-icons ui-2_favourite-28"></i> With Icon
-                </button>
+             <!-- <button  i class=" fas fa-smile-wink btn btn-danger btn-choice" type="button"></i> 
+               <i class="fas fa-smile-wink"></i>
+            </button> 
+            <button class="btn btn-primary btn-round btn-choice" type="button">
+                    <i class="now-ui-icons ui-2_favourite-28"></i> 
+                </button> -->
             <button id="button-2" class="btn btn-danger btn-choice" >
               <h1>2</h1>
             </button>
@@ -61,9 +61,8 @@
             </button>
             <button id="button-4" class="btn btn-danger btn-choice" >
               <h1>4</h1>
-            </button> -->
+            </button> --> 
 
-            here 
             <div id="crystals btn-choice">
                 </div>
           </div>
@@ -104,7 +103,7 @@
     $(document).ready(function() {
 
       // Initial Variables
-      var computerPick = Math.floor(Math.random() * 120) + 19;
+      var computerPick = Math.floor(Math.random() * 102) + 19;
       var lockGame = false;
       var counter = 0;
       var wins= 0;
@@ -117,7 +116,7 @@
       $(".btn-choice").on("click", function() {
 
         //VAR BUTTON
-        var button = Math.floor(Math.random()* 100) + 19;
+        var button = Math.floor(Math.random()* 12) + 1;
 
         for (var i = 0; i < button.lenght; i++) {
             
